@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/******* Airbnb Clone CSS **********/
+
+/* Navigation Bar CSS */
+.airbnb--navigation_bar{
+    padding: 10px 100px;
+    box-shadow: 10px 0px 20px 5px grey;
+}
+
+.airbnb--image{
+    width: 8%;
+}
+
+/* Hero Section CSS */
+.airbnb--hero_section{
+    height: 60vh;
+    background-image: url('./images/airbnb-hero-image.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.airbnb--overlay-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.airbnb--hero_heading{
+    color: #FF5A5F;
+    font-size: 100px;
+}
+
+.airbnb-hero_content{
+    padding: 10px 100px;
+}
+
+.airbnb--hero_content_heading, .airbnb--hero_content_text{
+    text-align: center;
+}
+
+.card--holder_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Card Component Settings */
+.card--container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.card--indicator_div{
+    position: absolute;
+    background-color: #FF5A5F;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    right: 10px;
+}
+
+.card--image{
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    margin: 0px 0px 10px 0px;
+}
+
+.card--rating_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card--star_rating_img{
+    height: 12px;
+    padding: 5px 5px 5px 0px;
+}
+
+.card--star_rating_text{
+    margin: 0px;
+    font-size: 12px;
+}
+
+.card--title_heading, .card--title_text{
+    margin: 0
+}
+
+.card--title_heading{
+    font-size: 16px;
+}
+
+.card--title_text{
+    font-size: 12px;
+}
+
+/* Jokes Challenge */
+.jokes--card_holder{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: burlywood;
+}
+
+.jokes--heading{
+    font-size: 20px;
+}
+
+.jokes--text{
+    font-size: 14px;
+}
+
+/* Genshin Cards */
+.genshin--card{
+    background-color: #6e6e6e5d;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.genshin--card_title{
+    font-size: 24px;
+}
+
+.genshin--card_weapon{
+    font-size: 14px;
+}
+
+.genshin--card_vision, .genshin--card_region{
+    font-size: 12px;
+}
